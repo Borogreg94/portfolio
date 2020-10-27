@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, 'cassette', 'title';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'cassette';
+  src: url('./fonts/alphabetized-cassette-tapes/alphabetizedcassettetapes.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'title';
+  src: url('./fonts/munich-font/MunichRegular-Y8x4.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'subtitle';
+  src: url('./fonts/josefin-sans-font/JosefinSansRegular.ttf')
+    format('truetype');
 }
