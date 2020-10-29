@@ -53,7 +53,7 @@ class Landing extends React.Component {
                 <div className='name'>Greg Borodulin</div>
                 <div className='tag'>Front-End Web Developer</div>
                 <div className='proLinksLanding'>
-                    <a href='https://www.linkedin.com/in/gregory-borodulin-270734a8/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/greg-borodulin-270734a8/' target='_blank'>
                         <img src={require('./icons/linkedin.svg')}/>
                     </a>
                     <a href='https://github.com/Borogreg94' target='_blank'>

@@ -17,7 +17,7 @@ class Header extends React.Component {
             
             <div className='headerTitle'>Greg Borodulin</div>
             <div className='proLinks'>
-                <a href='https://www.linkedin.com/in/gregory-borodulin-270734a8/' target='_blank'>
+                <a href='https://www.linkedin.com/in/greg-borodulin-270734a8/' target='_blank'>
                     <img src={require('./icons/linkedin.svg')}/>
                 </a>
                 <a href='https://github.com/Borogreg94' target='_blank'>
