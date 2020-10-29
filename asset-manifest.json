@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b62b44e4.chunk.css",
+    "main.js": "/portfolio/static/js/main.f22813bf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f22813bf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.d7a0e1a2.chunk.js": "/portfolio/static/js/2.d7a0e1a2.chunk.js",
+    "static/js/2.d7a0e1a2.chunk.js.map": "/portfolio/static/js/2.d7a0e1a2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.8742c8da464ac0e11fd198c17fc11998.js": "/portfolio/precache-manifest.8742c8da464ac0e11fd198c17fc11998.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.b62b44e4.chunk.css.map": "/portfolio/static/css/main.b62b44e4.chunk.css.map",
+    "static/js/2.d7a0e1a2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d7a0e1a2.chunk.js.LICENSE.txt",
+    "static/media/GregBorodulin_Resume.pdf": "/portfolio/static/media/GregBorodulin_Resume.1e77b9a1.pdf",
+    "static/media/GregBorodulin_Resume.png": "/portfolio/static/media/GregBorodulin_Resume.313f9d5d.png",
+    "static/media/index.css": "/portfolio/static/media/alphabetizedcassettetapes.63bb2f3f.ttf",
+    "static/media/css.svg": "/portfolio/static/media/css.6971ddc7.svg",
+    "static/media/durak_cover1.PNG": "/portfolio/static/media/durak_cover1.1e966d2d.PNG",
+    "static/media/github.svg": "/portfolio/static/media/github.67910a24.svg",
+    "static/media/greg.jpg": "/portfolio/static/media/greg.b8394730.jpg",
+    "static/media/html.svg": "/portfolio/static/media/html.f0361c5e.svg",
+    "static/media/igf_cover1.PNG": "/portfolio/static/media/igf_cover1.d9e36452.PNG",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.61ed8b05.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.6c8e140e.svg",
+    "static/media/nodejs.svg": "/portfolio/static/media/nodejs.a22a4241.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.c3fbd71b.svg",
+    "static/media/sqlite.svg": "/portfolio/static/media/sqlite.ed34606e.svg",
+    "static/media/Landing.scss": "/portfolio/static/media/tree.5f33d4ad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.d7a0e1a2.chunk.js",
+    "static/css/main.b62b44e4.chunk.css",
+    "static/js/main.f22813bf.chunk.js"
+  ]
+}
