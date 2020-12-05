@@ -2,8 +2,18 @@ import React from 'react';
 import './Projects.css';
 import ProjectCard from './ProjectCard';
 import { Grid } from '@material-ui/core';
+import Animate from './Animate';
 
 class Projects extends React.Component {
+	componentDidUpdate(prevProps) {
+		if (prevProps.scroll < 2 && this.props.scroll >= 2)
+			Animate.slideInProjects();
+
+		if (prevProps.scroll >= 2 && this.props.scroll < 2) {
+			Animate.slideOutProjects();
+		}
+	}
+
 	render() {
 		return (
 			<div className='projects'>
@@ -29,6 +39,10 @@ class Projects extends React.Component {
 					style={{ paddingLeft: '5%', paddingRight: '5%' }}>
 					<Grid item md={5} sm={8}>
 						<ProjectCard scroll={this.props.scroll} project='durak' />
+					</Grid>
+
+					<Grid item md={5} sm={8}>
+						<ProjectCard scroll={this.props.scroll} project='faang' />
 					</Grid>
 
 					<Grid item md={5} sm={8}>

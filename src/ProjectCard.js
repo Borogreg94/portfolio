@@ -1,27 +1,6 @@
 import React from 'react';
 
-import Animate from './Animate';
-import { Grid, Paper, Typography } from '@material-ui/core';
-
 class ProjectCard extends React.Component {
-	componentDidUpdate(prevProps) {
-		if (this.props.project === 'durak') {
-			if (prevProps.scroll < 2 && this.props.scroll >= 2)
-				Animate.slideInDurak();
-
-			if (prevProps.scroll >= 2 && this.props.scroll < 2)
-				Animate.slideOutDurak();
-		}
-
-		if (this.props.project === 'igf') {
-			if (prevProps.scroll < 2 && this.props.scroll >= 2) Animate.slideInIgf();
-
-			if (prevProps.scroll >= 2 && this.props.scroll < 2) {
-				Animate.slideOutIgf();
-			}
-		}
-	}
-
 	render() {
 		let cls, cover, name, tag, demoLink, codeLink, techList;
 
@@ -32,7 +11,7 @@ class ProjectCard extends React.Component {
 			tag = 'Explore, Rate, and Discuss your favorite indie games';
 			demoLink = 'http://35.245.98.231:3000/';
 			codeLink = 'https://github.com/gborodulin/Indie-Game-Forum';
-			techList = '| React | JavaScript | NodeJs | SQLite | ';
+			techList = '| React | JavaScript | NodeJs | SQLite |';
 		}
 
 		if (this.props.project === 'durak') {
@@ -42,7 +21,17 @@ class ProjectCard extends React.Component {
 			tag = 'Online Russian Card Game';
 			demoLink = 'http://34.86.64.212:3000/';
 			codeLink = 'https://github.com/gborodulin/durak';
-			techList = '| React | JavaScript | WebSockets | NodeJs | ';
+			techList = '| React | JavaScript | WebSockets | NodeJs |';
+		}
+
+		if (this.props.project === 'faang') {
+			cls = 'projectCard durakCard';
+			cover = require('./images/faangPhoto.png');
+			name = 'Faang Stock';
+			tag = 'Visual presentation of daily stock prices';
+			demoLink = 'https://gborodulin.github.io/faang-stock-visualizer/';
+			codeLink = 'https://github.com/gborodulin/faang-stock-visualizer';
+			techList = '| React | JavaScript | Material-UI |';
 		}
 
 		return (

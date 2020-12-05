@@ -1,38 +1,41 @@
 .App-header {
-  position: fixed;
-  top: 0;
-  background-image: linear-gradient(90deg, #576085, #8b9adb);
-  width: 100%;
-  height: 80px;
-  display: grid;
-  grid-template-columns: 30% 70%;
-  z-index: 1000;
-  opacity: 0;
+	position: fixed;
+	top: 0;
+	background-image: linear-gradient(90deg, #576085, #8b9adb);
+	width: 100%;
+	height: 80px;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	z-index: 1000;
+	opacity: 0;
+	box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.3);
 }
 
 .headerTitle {
-  grid-column: 1/-1;
-  grid-row: 1/2;
-  font-size: calc(45px + 1.5vw);
-  font-weight: 400;
+	grid-column: 1/-1;
+	grid-row: 1/2;
+	font-size: calc(45px + 1.5vw);
+	font-weight: 400;
 
-  font-family: 'title';
-  text-align: left;
-  color: black;
-  margin-left: 1%;
-  align-self: center;
+	font-family: 'title';
+	text-align: left;
+	color: black;
+	margin-left: 1%;
+	align-self: center;
+	text-shadow: -2px 3px 2px rgba(0, 0, 0, 0.3);
 }
 
 .proLinks {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  justify-self: end;
-  padding-top: 10px;
-  margin-right: 20px;
-  border-left: 2px dashed black;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	justify-self: end;
+	padding-top: 10px;
+	margin-right: 20px;
+	border-left: 2px dashed black;
+	filter: drop-shadow(-2px 3px 2px hsla(0, 0%, 0%, 0.3));
 }
 
 .proLinks img {
-  width: 60px;
-  margin-left: 15px;
+	width: 60px;
+	margin-left: 15px;
 }

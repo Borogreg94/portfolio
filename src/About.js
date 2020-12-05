@@ -40,7 +40,11 @@ class About extends React.Component {
 
 					<Grid item xs={12}>
 						{/* <div className='detailsContainer'> */}
-						<Typography style={{ fontSize: '30px' }}>{details}</Typography>
+						<Typography
+							className='detailsContainer'
+							style={{ fontSize: '30px' }}>
+							{details}
+						</Typography>
 						{/* </div> */}
 					</Grid>
 
