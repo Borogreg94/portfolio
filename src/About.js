@@ -3,7 +3,7 @@ import './About.css';
 import { Grid, Typography } from '@material-ui/core';
 
 const details =
-	"I'm a music composer who's become a self-taught web developer. My creative background allows me to view technical projects from a different perspective than most and provides me with a lot of experience in collaboration.";
+	'Composer turned Coder, my creative background allows me to view technical projects from a different perspective. With a multi-faceted experience in technology, (including IT Services, Hardware Design/Repair and Audio Signal Processing) I strive to continuously educate myself with new tools and enjoy collaborating with others.';
 
 class About extends React.Component {
 	render() {
@@ -38,7 +38,7 @@ class About extends React.Component {
 						</div>
 					</Grid> */}
 
-					<Grid item xs={12}>
+					<Grid item sm={12} md={6}>
 						{/* <div className='detailsContainer'> */}
 						<Typography
 							className='detailsContainer'
@@ -48,7 +48,7 @@ class About extends React.Component {
 						{/* </div> */}
 					</Grid>
 
-					<Grid item xs={12}>
+					<Grid item sm={12} md={6}>
 						<div className='resumeContainer'>
 							<a
 								href={require('./files/GregBorodulin_Resume.pdf')}
