@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67091dd1f60306031f250d7f26f05b89",
+    "revision": "4fa27d4d5fd75bf4906de79af5a9be6e",
     "url": "/index.html"
   },
   {
-    "revision": "982fdecfdee0eadb5465",
-    "url": "/static/css/main.b60bbee2.chunk.css"
+    "revision": "cd8f42dfc7c1b9725867",
+    "url": "/static/css/main.82f05a88.chunk.css"
   },
   {
     "revision": "d8f0439fe42868c0fe5f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f45f2d84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "982fdecfdee0eadb5465",
-    "url": "/static/js/main.6b3fb361.chunk.js"
+    "revision": "cd8f42dfc7c1b9725867",
+    "url": "/static/js/main.b944e9c4.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/45-degree-fabric-light2.ac1839b0.png"
   },
   {
-    "revision": "1e77b9a1a63d75e6d7df907d7045db37",
-    "url": "/static/media/GregBorodulin_Resume.1e77b9a1.pdf"
+    "revision": "30978a66847aecab9222653fcbd06602",
+    "url": "/static/media/GregBorodulin_Resume.30978a66.pdf"
   },
   {
-    "revision": "313f9d5daab37d19433df5e9faf7145f",
-    "url": "/static/media/GregBorodulin_Resume.313f9d5d.png"
+    "revision": "572fe025c14ba892f0ce9b4ebcc25214",
+    "url": "/static/media/GregBorodulin_Resume.572fe025.png"
   },
   {
     "revision": "a70efd80171bbf35c0555c123d86865e",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/css.6971ddc7.svg"
   },
   {
-    "revision": "1e966d2d744c814b841bf8e3020e9bdd",
-    "url": "/static/media/durak_cover1.1e966d2d.PNG"
+    "revision": "374010d53bad6ab3ef63666dddae0874",
+    "url": "/static/media/durak_cover1.374010d5.PNG"
   },
   {
     "revision": "3c6c011119a09d617402213ed3015d3e",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/html.f0361c5e.svg"
   },
   {
-    "revision": "d9e36452d84b2d19bfd2892ed2aca0bd",
-    "url": "/static/media/igf_cover1.d9e36452.PNG"
+    "revision": "467d1b60cd9c81fa828b953a155a8efc",
+    "url": "/static/media/igf_cover1.467d1b60.PNG"
   },
   {
     "revision": "61ed8b054178d0e8d1285ad8f29f4045",
