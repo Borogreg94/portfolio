@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e97d2218.chunk.css",
-    "main.js": "/static/js/main.97379c8e.chunk.js",
-    "main.js.map": "/static/js/main.97379c8e.chunk.js.map",
+    "main.css": "/static/css/main.36a311d4.chunk.css",
+    "main.js": "/static/js/main.de78b0d1.chunk.js",
+    "main.js.map": "/static/js/main.de78b0d1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.88c71455.chunk.js": "/static/js/2.88c71455.chunk.js",
     "static/js/2.88c71455.chunk.js.map": "/static/js/2.88c71455.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b331a0e711fd455751ccd51e9e1f04ce.js": "/precache-manifest.b331a0e711fd455751ccd51e9e1f04ce.js",
+    "precache-manifest.5610a3631e489011d2e72b98fee4211c.js": "/precache-manifest.5610a3631e489011d2e72b98fee4211c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e97d2218.chunk.css.map": "/static/css/main.e97d2218.chunk.css.map",
+    "static/css/main.36a311d4.chunk.css.map": "/static/css/main.36a311d4.chunk.css.map",
     "static/js/2.88c71455.chunk.js.LICENSE.txt": "/static/js/2.88c71455.chunk.js.LICENSE.txt",
     "static/media/Projects.css": "/static/media/45-degree-fabric-light2.ac1839b0.png",
     "static/media/GregBorodulin_Resume.png": "/static/media/GregBorodulin_Resume.03b1b283.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.88c71455.chunk.js",
-    "static/css/main.e97d2218.chunk.css",
-    "static/js/main.97379c8e.chunk.js"
+    "static/css/main.36a311d4.chunk.css",
+    "static/js/main.de78b0d1.chunk.js"
   ]
 }
