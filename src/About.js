@@ -42,7 +42,7 @@ class About extends React.Component {
 						{/* <div className='detailsContainer'> */}
 						<Typography
 							className='detailsContainer'
-							style={{ fontSize: '30px' }}>
+							style={{ fontSize: '25px' }}>
 							{details}
 						</Typography>
 						{/* </div> */}
