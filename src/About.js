@@ -51,7 +51,7 @@ class About extends React.Component {
 					<Grid item sm={12} md={6}>
 						<div className='resumeContainer'>
 							<a
-								href={require('./files/GregBorodulin_Resume.pdf')}
+								href={require('./images/GregBorodulin_Resume.pdf')}
 								download='GregBorodulin_Resume'>
 								<div className='resumeOverlay'>Download</div>
 							</a>
