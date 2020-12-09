@@ -34,6 +34,16 @@ class ProjectCard extends React.Component {
 			techList = '| React | JavaScript | Material-UI |';
 		}
 
+		if (this.props.project === 'musicQuiz') {
+			cls = 'projectCard musicQuizCard';
+			cover = require('./images/musicquiz_cover.png');
+			name = 'Music Quizzer';
+			tag = 'Test your knowledge of popular artists';
+			demoLink = 'https://gborodulin.github.io/music-quizzer/';
+			codeLink = 'https://github.com/gborodulin/music-quizzer';
+			techList = '| React | JavaScript | Material-UI |';
+		}
+
 		return (
 			<div className={cls}>
 				<img src={cover} />

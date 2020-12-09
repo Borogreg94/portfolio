@@ -48,6 +48,10 @@ class Projects extends React.Component {
 					<Grid item md={5} sm={8}>
 						<ProjectCard scroll={this.props.scroll} project='igf' />
 					</Grid>
+
+					<Grid item md={5} sm={8}>
+						<ProjectCard scroll={this.props.scroll} project='musicQuiz' />
+					</Grid>
 				</Grid>
 			</div>
 		);
