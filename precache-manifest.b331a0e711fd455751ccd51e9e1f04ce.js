@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78503aaa2c10e8a3b634b8b90aa2cea1",
+    "revision": "7c7314b04c27989097d46209122319e0",
     "url": "/index.html"
   },
   {
-    "revision": "743b3eb781da5ac4a7cf",
-    "url": "/static/css/main.1dada8f6.chunk.css"
+    "revision": "d1e9553d4b2899dcc227",
+    "url": "/static/css/main.e97d2218.chunk.css"
   },
   {
-    "revision": "d8f0439fe42868c0fe5f",
-    "url": "/static/js/2.f45f2d84.chunk.js"
+    "revision": "dbf6f8ecf92672cbce47",
+    "url": "/static/js/2.88c71455.chunk.js"
   },
   {
     "revision": "6397acf4c5cafcd591a770ce33fc3e2f",
-    "url": "/static/js/2.f45f2d84.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.88c71455.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "743b3eb781da5ac4a7cf",
-    "url": "/static/js/main.c6d12657.chunk.js"
+    "revision": "d1e9553d4b2899dcc227",
+    "url": "/static/js/main.97379c8e.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/45-degree-fabric-light2.ac1839b0.png"
   },
   {
-    "revision": "20a7fb41b0ff0e7c11dd8508b95f8ed1",
-    "url": "/static/media/GregBorodulin_Resume.20a7fb41.png"
+    "revision": "03b1b2838367e138b85c9c017831fdd7",
+    "url": "/static/media/GregBorodulin_Resume.03b1b283.png"
   },
   {
-    "revision": "e077047da463bdf4677f40a84ece7d0b",
-    "url": "/static/media/GregBorodulin_Resume.e077047d.pdf"
+    "revision": "079680710e05b60e74393f9dbf5318a8",
+    "url": "/static/media/GregBorodulin_Resume.07968071.pdf"
   },
   {
     "revision": "a70efd80171bbf35c0555c123d86865e",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6c8e140e0c8b5d6acd513c67d12d267d",
     "url": "/static/media/linkedin.6c8e140e.svg"
+  },
+  {
+    "revision": "673dc2deea2f14caad7384fc9e5cc044",
+    "url": "/static/media/musicquiz_cover.673dc2de.png"
   },
   {
     "revision": "91fab30c0898b6de02bf15883a0d210d",

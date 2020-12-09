@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1dada8f6.chunk.css",
-    "main.js": "/static/js/main.c6d12657.chunk.js",
-    "main.js.map": "/static/js/main.c6d12657.chunk.js.map",
+    "main.css": "/static/css/main.e97d2218.chunk.css",
+    "main.js": "/static/js/main.97379c8e.chunk.js",
+    "main.js.map": "/static/js/main.97379c8e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.f45f2d84.chunk.js": "/static/js/2.f45f2d84.chunk.js",
-    "static/js/2.f45f2d84.chunk.js.map": "/static/js/2.f45f2d84.chunk.js.map",
+    "static/js/2.88c71455.chunk.js": "/static/js/2.88c71455.chunk.js",
+    "static/js/2.88c71455.chunk.js.map": "/static/js/2.88c71455.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.63a775ba6962c53147cd78321c08949b.js": "/precache-manifest.63a775ba6962c53147cd78321c08949b.js",
+    "precache-manifest.b331a0e711fd455751ccd51e9e1f04ce.js": "/precache-manifest.b331a0e711fd455751ccd51e9e1f04ce.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1dada8f6.chunk.css.map": "/static/css/main.1dada8f6.chunk.css.map",
-    "static/js/2.f45f2d84.chunk.js.LICENSE.txt": "/static/js/2.f45f2d84.chunk.js.LICENSE.txt",
+    "static/css/main.e97d2218.chunk.css.map": "/static/css/main.e97d2218.chunk.css.map",
+    "static/js/2.88c71455.chunk.js.LICENSE.txt": "/static/js/2.88c71455.chunk.js.LICENSE.txt",
     "static/media/Projects.css": "/static/media/45-degree-fabric-light2.ac1839b0.png",
-    "static/media/GregBorodulin_Resume.png": "/static/media/GregBorodulin_Resume.20a7fb41.png",
-    "static/media/GregBorodulin_Resume.pdf": "/static/media/GregBorodulin_Resume.e077047d.pdf",
+    "static/media/GregBorodulin_Resume.png": "/static/media/GregBorodulin_Resume.03b1b283.png",
+    "static/media/GregBorodulin_Resume.pdf": "/static/media/GregBorodulin_Resume.07968071.pdf",
     "static/media/index.css": "/static/media/alphabetizedcassettetapes.63bb2f3f.ttf",
     "static/media/About.css": "/static/media/buried.bc95bc68.png",
     "static/media/css.svg": "/static/media/css.6971ddc7.svg",
@@ -25,14 +25,15 @@
     "static/media/igf_cover1.PNG": "/static/media/igf_cover1.467d1b60.PNG",
     "static/media/javascript.svg": "/static/media/javascript.61ed8b05.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.6c8e140e.svg",
+    "static/media/musicquiz_cover.png": "/static/media/musicquiz_cover.673dc2de.png",
     "static/media/react.svg": "/static/media/react.91fab30c.svg",
     "static/media/redux.svg": "/static/media/redux.b3e5602f.svg",
     "static/media/Landing.scss": "/static/media/tree.5f33d4ad.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.f45f2d84.chunk.js",
-    "static/css/main.1dada8f6.chunk.css",
-    "static/js/main.c6d12657.chunk.js"
+    "static/js/2.88c71455.chunk.js",
+    "static/css/main.e97d2218.chunk.css",
+    "static/js/main.97379c8e.chunk.js"
   ]
 }
