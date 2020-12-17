@@ -1,4 +1,5 @@
 import React from 'react';
+import faangGif from './gifs/faangGif.gif'
 
 class ProjectCard extends React.Component {
 	render() {
@@ -26,7 +27,7 @@ class ProjectCard extends React.Component {
 
 		if (this.props.project === 'faang') {
 			cls = 'projectCard durakCard';
-			cover = require('./images/faangPhoto.png');
+			cover = faangGif;
 			name = 'Faang Stock';
 			tag = 'Visual presentation of daily stock prices';
 			demoLink = 'https://gborodulin.github.io/faang-stock-visualizer/';
