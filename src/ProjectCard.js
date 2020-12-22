@@ -1,77 +1,36 @@
 import React from 'react';
-import faangGif from './gifs/faangGif.gif'
 
 class ProjectCard extends React.Component {
 	render() {
-		let cls, cover, name, tag, demoLink, codeLink, techList;
-
-		if (this.props.project === 'igf') {
-			cls = 'projectCard igfCard';
-			cover = require('./images/igf_cover1.PNG');
-			name = 'Indie Game Forum';
-			tag = 'Explore, Rate, and Discuss your favorite indie games';
-			demoLink = 'http://35.245.98.231:3000/';
-			codeLink = 'https://github.com/gborodulin/Indie-Game-Forum';
-			techList = '| React | JavaScript | NodeJs | SQLite |';
-		}
-
-		if (this.props.project === 'durak') {
-			cls = 'projectCard durakCard';
-			cover = require('./images/durak_cover1.PNG');
-			name = 'Durak';
-			tag = 'Online Russian Card Game';
-			demoLink = 'http://34.86.64.212:3000/';
-			codeLink = 'https://github.com/gborodulin/durak';
-			techList = '| React | JavaScript | WebSockets | NodeJs |';
-		}
-
-		if (this.props.project === 'faang') {
-			cls = 'projectCard durakCard';
-			cover = faangGif;
-			name = 'Faang Stock';
-			tag = 'Visual presentation of daily stock prices';
-			demoLink = 'https://gborodulin.github.io/faang-stock-visualizer/';
-			codeLink = 'https://github.com/gborodulin/faang-stock-visualizer';
-			techList = '| React | JavaScript | Material-UI |';
-		}
-
-		if (this.props.project === 'musicQuiz') {
-			cls = 'projectCard musicQuizCard';
-			cover = require('./images/musicquiz_cover.png');
-			name = 'Music Quizzer';
-			tag = 'Test your knowledge of popular artists';
-			demoLink = 'https://gborodulin.github.io/music-quizzer/';
-			codeLink = 'https://github.com/gborodulin/music-quizzer';
-			techList = '| React | JavaScript | Material-UI |';
-		}
+		const project = this.props.project;
 
 		return (
-			<div className={cls}>
-				<img src={cover} />
+			<div className='projectCard'>
+				<img src={project.cover} alt='project cover' />
 
 				<div className='projectInfo'>
 					<div className='nameContainer'>
-						<div className='projectInfoName'>{name}</div>
+						<div className='projectInfoName'>{project.name}</div>
 					</div>
 
 					<div className='tagContainer'>
-						<div className='projectInfoTag'>{tag}</div>
+						<div className='projectInfoTag'>{project.tag}</div>
 					</div>
 
 					<div className='demoContainer'>
-						<a href={demoLink} target='_blank'>
+						<a href={project.demoLink} target='_blank'>
 							<div className='demo button'>Demo</div>
 						</a>
 					</div>
 
 					<div className='codeContainer'>
-						<a href={codeLink} target='_blank'>
+						<a href={project.codeLink} target='_blank'>
 							<div className='code button'>Code</div>
 						</a>
 					</div>
 
 					<div className='techContainer'>
-						<div className='tech'>{techList}</div>
+						<div className='tech'>{project.techList}</div>
 					</div>
 				</div>
 			</div>

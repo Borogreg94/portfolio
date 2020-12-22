@@ -39,13 +39,11 @@ class About extends React.Component {
 					</Grid> */}
 
 					<Grid item sm={12} md={6}>
-						{/* <div className='detailsContainer'> */}
 						<Typography
 							className='detailsContainer'
-							style={{ fontSize: '25px' }}>
+							style={{ fontSize: '30px', fontFamily: 'subtitle' }}>
 							{details}
 						</Typography>
-						{/* </div> */}
 					</Grid>
 
 					<Grid item sm={12} md={6}>
@@ -59,6 +57,7 @@ class About extends React.Component {
 							<img
 								className='resumePic'
 								src={require('./images/GregBorodulin_Resume.png')}
+								alt='resume'
 							/>
 						</div>
 					</Grid>

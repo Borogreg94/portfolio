@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Animate from './Animate';
+import { Typography } from '@material-ui/core';
 
 class Header extends React.Component {
 	componentDidUpdate(prevProps) {
@@ -12,7 +13,12 @@ class Header extends React.Component {
 	render() {
 		return (
 			<header className='App-header'>
-				<div className='headerTitle'>Greg Borodulin</div>
+				<Typography
+					variant='h2'
+					className='headerTitle'
+					style={{ fontFamily: 'title' }}>
+					Greg Borodulin
+				</Typography>
 				<div className='proLinks'>
 					<a
 						href='https://www.linkedin.com/in/greg-borodulin-270734a8/'

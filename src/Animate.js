@@ -52,7 +52,7 @@ const Animate = {
 		anime({
 			targets: '.name_tag_proLinks, #arrow1, #arrow2',
 			opacity: 1,
-			duration: 800,
+			duration: 1000,
 			easing: 'easeInOutSine',
 		});
 	},

@@ -16,8 +16,7 @@
 
 .projectCard {
 	width: 100%;
-	/* min-width: 500px; */
-	height: auto;
+	height: 90%;
 	margin: 30px auto 0 auto;
 	position: relative;
 	-webkit-box-shadow: 5px 5px 5px 1px #000000;
