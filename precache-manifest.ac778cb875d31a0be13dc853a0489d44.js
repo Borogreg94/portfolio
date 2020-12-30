@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "294f49dd3165ff5bcb9416e9a7d5a4d8",
+    "revision": "1f4b87cf51378b9b4acf6086b95e81ee",
     "url": "/index.html"
   },
   {
-    "revision": "7fcfa2afd2cc7a57f922",
-    "url": "/static/css/main.8d095ac4.chunk.css"
+    "revision": "a73a95b1fdc1c47ee490",
+    "url": "/static/css/main.c66b0d6a.chunk.css"
   },
   {
     "revision": "0bdff29ee4804918057a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.91ee89bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7fcfa2afd2cc7a57f922",
-    "url": "/static/js/main.c38a3704.chunk.js"
+    "revision": "a73a95b1fdc1c47ee490",
+    "url": "/static/js/main.7bf32d33.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/45-degree-fabric-light2.ac1839b0.png"
   },
   {
-    "revision": "03b1b2838367e138b85c9c017831fdd7",
-    "url": "/static/media/GregBorodulin_Resume.03b1b283.png"
+    "revision": "70022409bf0db5469b581035726d548e",
+    "url": "/static/media/GregBorodulin_Resume.70022409.pdf"
   },
   {
-    "revision": "079680710e05b60e74393f9dbf5318a8",
-    "url": "/static/media/GregBorodulin_Resume.07968071.pdf"
+    "revision": "c36fcb8cf83eabd8040aa01a6b149cd8",
+    "url": "/static/media/GregBorodulin_Resume.c36fcb8c.png"
   },
   {
     "revision": "a70efd80171bbf35c0555c123d86865e",
