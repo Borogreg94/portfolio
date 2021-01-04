@@ -28,7 +28,8 @@
 	grid-column: 2/3;
 	grid-row: 1/2;
 	justify-self: end;
-	padding-top: 10px;
+	align-self: center;
+
 	margin-right: 10px;
 	border-left: 2px dashed black;
 	filter: drop-shadow(-2px 3px 2px hsla(0, 0%, 0%, 0.3));
