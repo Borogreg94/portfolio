@@ -12,7 +12,7 @@ class Header extends React.Component {
 
 	render() {
 		return (
-			<header className='App-header'>
+			<div className='App-header'>
 				<Typography
 					variant='h2'
 					className='headerTitle'
@@ -29,7 +29,7 @@ class Header extends React.Component {
 						<img src={require('./icons/github.svg')} />
 					</a>
 				</div>
-			</header>
+			</div>
 		);
 	}
 }
