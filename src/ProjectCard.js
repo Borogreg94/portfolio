@@ -17,11 +17,13 @@ class ProjectCard extends React.Component {
 						<div className='projectInfoTag'>{project.tag}</div>
 					</div>
 
-					<div className='demoContainer'>
-						<a href={project.demoLink} target='_blank'>
-							<div className='demo button'>Demo</div>
-						</a>
-					</div>
+					{project.demoLink ? (
+						<div className='demoContainer'>
+							<a href={project.demoLink} target='_blank'>
+								<div className='demo button'>Demo</div>
+							</a>
+						</div>
+					) : null}
 
 					<div className='codeContainer'>
 						<a href={project.codeLink} target='_blank'>

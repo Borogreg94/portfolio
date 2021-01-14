@@ -6,14 +6,6 @@ import Animate from './Animate';
 
 const projectList = [
 	{
-		cover: require('./images/durak_cover1.PNG'),
-		name: 'Durak',
-		tag: 'Online Russian Card Game',
-		demoLink: 'http://34.86.64.212:3000/',
-		codeLink: 'https://github.com/gborodulin/durak',
-		techList: '| React | JavaScript | WebSockets | NodeJs |',
-	},
-	{
 		cover: require('./gifs/pianoGif.gif'),
 		name: "Greg's Piano",
 		tag: 'Quirky Playable Piano',
@@ -38,10 +30,21 @@ const projectList = [
 		techList: '| React | JavaScript | Material-UI |',
 	},
 	{
+		cover: require('./images/durak_cover1.PNG'),
+		name: 'Durak',
+		tag: 'Online Russian Card Game',
+		demoLink: null,
+		// demoLink: 'http://34.86.64.212:3000/',
+		codeLink: 'https://github.com/gborodulin/durak',
+		techList: '| React | JavaScript | WebSockets | NodeJs |',
+	},
+	{
 		cover: require('./images/igf_cover1.PNG'),
 		name: 'Indie Game Forum',
 		tag: 'Explore, Rate, and Discuss your favorite indie games',
-		demoLink: 'http://35.245.98.231:3000/',
+		// demoLink: 'http://35.245.98.231:3000/',
+		demoLink: null,
+
 		codeLink: 'https://github.com/gborodulin/Indie-Game-Forum',
 		techList: '| React | JavaScript | NodeJs | SQLite |',
 	},
